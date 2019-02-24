@@ -50,3 +50,10 @@ print(x)
 # with open('mpg.csv') as csvfile:
 # 	mpg = list(csv.DictReader(csvfile))
 # sum(float(d['cty']) for d in mpg )/len(mpg)
+
+########## Dates and Times ###########
+
+# important libraries
+# import datetime as dt
+# import time as tm
+
