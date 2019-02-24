@@ -31,3 +31,22 @@ print(type(x))
 # unordered, labelled collection
 x = { "Kushal": 23, "Sam": 22 }
 print(x)
+
+########### Strings ###############
+
+# Interesting Functions:
+
+# all list operations are valid
+# split, in, [:]
+
+# String formatting language
+
+# CSV manipulation
+
+# import csv
+
+# %precision 2
+
+# with open('mpg.csv') as csvfile:
+# 	mpg = list(csv.DictReader(csvfile))
+# sum(float(d['cty']) for d in mpg )/len(mpg)
