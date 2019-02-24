@@ -1,4 +1,4 @@
-# Datatypes
+########### Datatypes ############
 
 print("DataTypes in Python")
 
@@ -13,7 +13,7 @@ print(type('a'))
 print(None)
 print(adder)
 
-# Collection
+########### Collection ###########
 
 print("Collections in Python")
 
