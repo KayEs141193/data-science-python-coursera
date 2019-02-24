@@ -57,3 +57,26 @@ print(x)
 # import datetime as dt
 # import time as tm
 
+########## Objects and map() ###########
+
+class Person:
+	department = 'ECE' # static datamember
+
+	def set_name(self, new_name):
+		self.name = new_name
+	def set_location(self, new_location):
+		self.location = new_location
+
+x = Person()
+
+# No private or protected members
+# no need for constructor but can be created using __init
+
+store1 = [10.0, 11.0, 12.34, 2.34,90]
+store2 = [9.0,11.1,12.34,2.01]
+
+# map performs a lazy evalution and returns a map object
+cheapest = map(min,store1,store2)
+
+for price in cheapest:
+	print(price)
