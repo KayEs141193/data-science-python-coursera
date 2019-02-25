@@ -64,3 +64,13 @@ print(s)
 # df['Gold'] > 0 # This results in a boolean mask
 # only_gold = df.where(df['Gold']>0) # This applies the boolean mask to a dataframe
 # only_gold = df[df['Gold']>0]
+
+########### Indexing Dataframes #############
+
+# Indexes can be set to any column by df.set_index('Gold')
+# Index can be reset using df.reset_index(), this promotes the current index to a column and set a integer index
+# Multilevel index ( like composite keys), during set index provide a list to columns
+
+# df.loc[[(i1,i11),(i1,i12)]]
+
+# use df.append to append rows
