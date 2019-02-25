@@ -47,3 +47,12 @@ print(s)
 # Updating a column
 s['New Column'] = pd.Series(['A1','A2','A3'], index = ['store1','store1','store3'])
 print(s)
+
+####### Dataframe Indexing and Loading ##########
+
+# NOTE: Ambiguity around when we have references and when we have copy, when dataframes are being manipulated
+
+# Pandas dataframes provide us the ability to directly read csv in the format we want to
+
+s.rename(columns={'New Column':'Grade'}, inplace = True)
+print(s)
