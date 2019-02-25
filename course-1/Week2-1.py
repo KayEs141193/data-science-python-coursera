@@ -26,3 +26,8 @@ sports = { 'Cricket': 'India',
 			'Baseball': 'USA'}
 
 s = pd.Series(sports)
+
+# Querying a Series
+
+print(s.iloc[2])
+print(s.loc['Baseball'])
