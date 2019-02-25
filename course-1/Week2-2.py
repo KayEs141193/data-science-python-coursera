@@ -56,3 +56,11 @@ print(s)
 
 s.rename(columns={'New Column':'Grade'}, inplace = True)
 print(s)
+
+######### Querying a DataFrame ##############
+
+# Boolean Masking
+
+# df['Gold'] > 0 # This results in a boolean mask
+# only_gold = df.where(df['Gold']>0) # This applies the boolean mask to a dataframe
+# only_gold = df[df['Gold']>0]
