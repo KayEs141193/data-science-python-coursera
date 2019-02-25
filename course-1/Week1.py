@@ -89,3 +89,11 @@ fooLambda = lambda a, b, c: a + b
 
 # List comprehension: condensed
 # construct: <value_we_want> <for-loop> <condition-clause>
+
+########### NumPy ##########
+
+import numpy as np
+
+# np.array, np.shape, np.reshape
+# slicing a part of numpy array gives a reference to the sliced part, doesn't create a copy
+# to create copy use arr.copy() function
