@@ -74,3 +74,13 @@ print(s)
 # df.loc[[(i1,i11),(i1,i12)]]
 
 # use df.append to append rows
+
+########### Assignment Learning Outcomes ##############
+
+# Using idmax to get the index of the largest value: df[Col].idmax()
+# Using df.rename to rename Columns in dataframe and using s.rename to rename a series
+# Using df[Col].value_counts() to get a series with a count for each unique value
+# Using s.nlargest(n) to get n largest values
+# Using s.index.tolist() to get a list of index values
+# Using df.apply(foo, axis=1) to apply the foo function, which takes a series, on each row to generate a new series
+# Viewing more than 2 columns simultaneously using df[[col1,col2,..]]
