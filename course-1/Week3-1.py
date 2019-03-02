@@ -25,3 +25,7 @@
 
 # 1. Back to back [][] might have wierd behaviour as wey may not know whether reference or copy is being sent
 # 2. Chaining is good for methods, as we are returned a reference
+
+############ Group By ################
+ # df.groupby(Col) # Can be iterated upon like for group, frame in df.groupby(Col):
+ # df.groupby(func).apply(bar,arg2,arg3) # arg1 is the df assosciated with the group
