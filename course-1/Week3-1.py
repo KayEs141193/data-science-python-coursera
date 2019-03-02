@@ -29,3 +29,13 @@
 ############ Group By ################
  # df.groupby(Col) # Can be iterated upon like for group, frame in df.groupby(Col):
  # df.groupby(func).apply(bar,arg2,arg3) # arg1 is the df assosciated with the group
+
+ ########### Scales ###############
+
+ # Ratio Scale, Interval Scale, Ordinal Scale, Nominal Scale
+ # Working with categorical data in pandas dtype: category
+ # s.astype('category', categories = [c1,c2,c3,c4], ordered = True)
+ # pd.cut(df[col1],11, labels = ['Small', 'Medium', 'Large']) # Puts each row into a bin ( out of 11) based on the series provided
+
+
+ ########### Pivot Tables ################
