@@ -17,3 +17,11 @@
 # left_on and right_on can take list of columns in case joing is to be done using multiple keys
 
 # In case of same columns with different values both are preserved by adding suffixes
+
+
+########### Pandas Idioms #################
+
+# Idioms: Best ways to solve problems. Pandorable
+
+# 1. Back to back [][] might have wierd behaviour as wey may not know whether reference or copy is being sent
+# 2. Chaining is good for methods, as we are returned a reference
