@@ -39,3 +39,11 @@
 
 
  ########### Pivot Tables ################
+
+ # df.pivot_table( values=[c1,c2], index=c2, columns=c3, aggfunc=dict )
+
+ ########### Date Functionality ##############
+
+ # pd.Timestamp
+ # pd.Period
+ # pd.Timedelta
