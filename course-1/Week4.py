@@ -8,4 +8,8 @@
 
 # import scipy.stats as stats
 # stats.kurtosis(distribution_samples) # -ve flatter than normal, +ve peakier than normal
-# stats.skew
+# stats.skew(Dist_samples)
+
+######### Hypothesis Testing ###########
+
+# T-test: stats.ttest_ind(a,b,)
